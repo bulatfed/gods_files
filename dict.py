@@ -347,4 +347,36 @@
 #         print(i)
 #     else:
 #         continue
-            
+
+#16
+# a = [1, 2, 3, 2, 1]
+# dick = {}
+# for i in a:
+#     if i not in dick:
+#         dick[i] = 1
+#     else:
+#         dick[i]+=1
+# sorted_by_math = sorted(dick.items(), key=lambda x: x[1], reverse=True)
+# print(sorted_by_math[0][0],sorted_by_math[1][0],sorted_by_math[2][0])
+
+
+
+
+#17
+# a = [1, 2, 3, 4, 5]
+# b = {1: "один", 3: "три", 5: "пять"}
+
+# for i in a:
+#     if i in b:
+#         print(i, b[i])
+#     else:
+#         print(i, "?")
+
+#18
+# a = "hello"
+# chas = {}
+# for i in a:
+#     chas[i] = chas.get(i, 0) + 1
+
+# ss = max(chas, key=chas.get)
+# print(ss, chas[ss] )
