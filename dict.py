@@ -115,12 +115,12 @@
 # d = {"a": "h", "b": "e", "c": "l"}
 # print("e" in d.values())
 
-20
-d = {"name": "Иван"}
-a = input()
-if  a in d:
-    print(d[a])
-else:
-    print(d.setdefault(a, "неизвестно"))
-    print(d)
+# 20
+# d = {"name": "Иван"}
+# a = input()
+# if  a in d:
+#     print(d[a])
+# else:
+#     print(d.setdefault(a, "неизвестно"))
+#     print(d)
 
