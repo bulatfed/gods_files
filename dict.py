@@ -380,3 +380,104 @@
 
 # ss = max(chas, key=chas.get)
 # print(ss, chas[ss] )
+
+#----------------------------------------------------
+
+#19
+# a = [2, 4, 2, 6, 4, 2]
+# chis = {}
+# for i in a:
+#     chis[i] = chis.get(i, 0) + 1
+# print(chis)
+
+#20
+# a = [1, 2, 3, 2, 1, 4]
+# chis = {}
+# for i in a:
+#     chis[i] = chis.get(i, 0) + 1
+
+# for k, v in chis.items():
+#     if v > 1:
+#         print(k)
+
+#21
+# a = {"яблоко": 5, "банан": 12, "груша": 8}
+# print("Больше всего:", max(a, key=a.get))
+
+#22
+# a = [1, 2, 2, 3, 3, 3, 4, 4]
+# chis = {}
+
+# for i in a:
+#     chis[i] = chis.get(i, 0) + 1
+# ss = sorted(chis, key=chis.get, reverse=True)
+# for i in ss[:2]:
+#     print(f"{i}:, {chis[i]} раз")
+
+#23vhv
+# a = ["кот", "пёс", "дом", "сон", "коза", "роса"]
+
+# ss = {}
+# for i in a:
+#     words = len(i)
+#     if words not in ss:
+#         ss[words] = []
+#     ss[words].append(i)
+# print(ss)
+
+#24
+# a = [1, 2, 2, 3, 3, 3]
+# b = [2, 3, 3, 4]
+# sr1 ={}
+# sr2 ={}
+# summ ={}
+# for i in a:
+#     sr1[i] = sr1.get(i, 0) + 1
+# for i in b:
+#     sr2[i] = sr2.get(i, 0) + 1
+
+# for k, v in sr1.items():
+#     if k in sr2:
+#         summ[k] = v + sr1[k]
+# print(summ)
+
+#25
+# a = {"a": 1, "b": 2, "c": 1, "d": 2, "e": 1}
+# ##{1: ['a', 'c', 'e'], 2: ['b', 'd']}
+# ss = {}
+# for k, v in a.items():
+#     ss.setdefault(v, []).append(k)
+# print(ss)
+
+#26
+# students = [
+#     {"name": "Иван", "grade": 4},
+#     {"name": "Оля", "grade": 5},
+#     {"name": "Петя", "grade": 4},
+#     {"name": "Маша", "grade": 5},
+# ]
+# for i in students:
+#     sorted = 
+
+#27
+# a = {1: 1, 2: 2, 3: 3, 4: 2}
+# sort = {}
+# sort2 = sorted(sort, key=a.get, reverse=True)
+# print(sort2)
+
+#28
+# a = [3, 2, 4, 1]
+# print(a[:2])
+
+# #29
+# a = {1: 1, 2: 2, 3: 3, 4: 2}
+# print(f"{3}: d{3} raz")
+
+#30
+# a = "кот"
+# print(len(a))
+
+#31
+ss = {}
+ss[3] = ["kot"]
+print(ss)
